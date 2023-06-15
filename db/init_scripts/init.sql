@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS public.authors
 CREATE TABLE IF NOT EXISTS public.publish_houses
 (
     publ_house_id bigint NOT NULL GENERATED ALWAYS AS IDENTITY ( INCREMENT 1 START 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1 ),
-    name character varying(120) COLLATE pg_catalog."default" NOT NULL,
+    house_name character varying(120) COLLATE pg_catalog."default" NOT NULL,
     city character varying(100) COLLATE pg_catalog."default" NOT NULL,
     CONSTRAINT publish_house_pkey PRIMARY KEY (publ_house_id)
 );
