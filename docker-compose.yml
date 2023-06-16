@@ -1,8 +1,8 @@
 version: '1.0'
 services:
-  ddl:
+  sql_library:
     image: postgres:latest
-    container_name: ddl
+    container_name: sql_library
     ports: 
       - 5455:5432
     environment:
