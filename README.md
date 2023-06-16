@@ -1,8 +1,8 @@
 ## 1. Графическая структура базы данных:
 
-![Alt text](Physic_structure_pgAdmin.png)
+![Alt text](Graphic_structure_pgAdmin.png)
 
-![Alt text](Physic_structure_DBeaver.png)
+![Alt text](Graphic_structure_DBeaver.png)
 
 ## 2. 
 ### SQL-скрипт для создания таблиц:
