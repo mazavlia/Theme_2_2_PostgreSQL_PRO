@@ -4,8 +4,13 @@
 
 ![Alt text](Physic_structure_DBeaver.png)
 
-## 2. SQL-скрипт:
-Файл: [SQL-script](db/init_scripts/init.sql)
+## 2. 
+### SQL-скрипт для создания таблиц:
+Файл: [DDL-script](db/DDL/1_ddl.sql)
+
+### SQL-скрипт для заполения таблиц:
+Файл: [DML-script](db/DML/2_dml.sql)
+
 
 ## 3. Файл Docker-compose:
 Файл: [Docker-compose](docker-compose.yml)
