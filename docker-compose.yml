@@ -2,7 +2,7 @@ version: '1.0'
 services:
   sql_library:
     image: postgres:latest
-    container_name: sql_library
+    container_name: library
     ports: 
       - 5455:5432
     environment:
